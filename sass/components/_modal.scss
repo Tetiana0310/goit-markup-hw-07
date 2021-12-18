@@ -32,9 +32,7 @@
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex(flex, center, center);
 }
 
 .modal__icon {
@@ -159,19 +157,15 @@
   line-height: 1.46;
   color: var(--main-text-color);
   letter-spacing: 0.03em;
-  display: flex;
+  @include flex(flex, center, baseline);
   text-align: center;
-  align-items: baseline;
-  justify-content: center;
   span {
     width: 16px;
     height: 15px;
     border: 2px solid #000000;
     margin-right: 5px;
     border-radius: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex(flex, center, center);
   }
 }
 

@@ -7,8 +7,7 @@
     url(../images/hero-bg.jpg);
   max-width: 1600px;
   text-align: center;
-  display: block;
-  justify-content: center;
+  @include flex(flex, center, null);
   padding: 200px 0;
   background-repeat: no-repeat;
   background-size: cover;

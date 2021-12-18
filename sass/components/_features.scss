@@ -32,9 +32,7 @@
   background-color: #f5f4fa;
   margin-bottom: 20px;
   border-radius: 4px;
-  display: flex;
-  justify-content: center;
+  @include flex(flex, center, center);
   width: 270px;
   height: 120px;
-  align-items: center;
 }
